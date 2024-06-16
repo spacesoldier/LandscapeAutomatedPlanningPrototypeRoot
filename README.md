@@ -5,20 +5,20 @@
 
 В данном репозитории содержатся все необходимые для развёртывания файлы
 
-Подробная инструкция доступна в (документации)[https://docs.simplizio.com]
+Подробная инструкция доступна в [документации](https://docs.simplizio.com)
 
-Прототип системы доступен (в тестовом режиме)[https://app.simplizio.com]
+Прототип системы доступен [в тестовом режиме](https://app.simplizio.com)
 
 ## Компонентный состав
-- Предварительная загрузка данных (LandsapePlanningDocsUpload)[https://github.com/spacesoldier/LandsapePlanningDocsUpload]
+- Предварительная загрузка данных [LandsapePlanningDocsUpload](https://github.com/spacesoldier/LandsapePlanningDocsUpload)
   Cервис написан на Python с использованием фреймворка FastAPI
-- Прототип фронтенда (LandscapePlanningProtoConsole)[https://github.com/spacesoldier/LandscapePlanningProtoConsole]
+- Прототип фронтенда [LandscapePlanningProtoConsole](https://github.com/spacesoldier/LandscapePlanningProtoConsole)
   Для отработки взаимодействия с Keycloak
-- Фронтенд системы планирования (LandscapePlanningConsoleFrontend)[https://github.com/spacesoldier/LandscapePlanningConsoleFrontend]
+- Фронтенд системы планирования [LandscapePlanningConsoleFrontend](https://github.com/spacesoldier/LandscapePlanningConsoleFrontend)
   Одностраничное веб-приложение, написанное с использованием фреймворка React
-- Подсистема прототипирования и отработки API (LandscapeAutomatedPlanningPrototype)[https://github.com/spacesoldier/LandscapeAutomatedPlanningPrototype]
+- Подсистема прототипирования и отработки API [LandscapeAutomatedPlanningPrototype](https://github.com/spacesoldier/LandscapeAutomatedPlanningPrototype)
   Выполнена на базе Node-RED
-- Бекенд системы планирования (LandscapeAutomatedPlanningBackend)[https://github.com/spacesoldier/LandscapeAutomatedPlanningBackend]
+- Бекенд системы планирования [LandscapeAutomatedPlanningBackend](https://github.com/spacesoldier/LandscapeAutomatedPlanningBackend)
   Производит вычисления в рамках поставленной задачи планирования развития территорий
 - Хранилище данных NoSQL на базе MongoDB
   Предназначено для обработки исходных данных, полученных в рамках хакатона
