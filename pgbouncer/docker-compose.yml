@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  pgbouncer:
+    image: edoburu/pgbouncer:latest
+    environment:
+      - DB_HOST=pg_host
+      - DB_PORT=30696
+      - DB_USER=dbadmin
+      - DB_PASSWORD=dbadmin_password
+      - ADMIN_USERS=dbadmin
+      - AUTH_TYPE=scram-sha-256
+      - POOL_MODE=transaction
+    ports:
+      - "30698:5432"
+    restart: always
+
+networks:
+  default:
+    external:
+      name: leadersnet
+      
