@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  planner-ui:
+    image: spacesoldier/planner-proto-ui
+    environment:
+      - PORT=9090
+      - KC_URL=keycloak_public_url
+      - SERVICE_URL=backend_api_url
+    ports:
+      - "9090:9090"
+
+networks:
+  default:
+    external:
+      name: leadersnet
